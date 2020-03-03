@@ -91,7 +91,7 @@ public class Main {
                 System.out.println("Wrong number entered, try again");
         }*/
 
-//        Optional task1
+/*//        Optional task1
 //        1.     Упорядочить строки (столбцы) матрицы в порядке возрастания значений элементов k-го столбца (строки).
         int min = 10, max = 0;
         String minStr = null, maxStr = null;
@@ -120,6 +120,6 @@ public class Main {
         }
         for(int i = 0; i < args.length; i++){
             System.out.println(args[i]);
-        }
+        }*/
     }
 }
