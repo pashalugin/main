@@ -49,8 +49,8 @@ class Customer {
     }
 
     public String toString() {
-        return String.format("ID: %d\t name: %s\t surname: %s\t patronymic %s \t CardNumber %d\t BankNumber %d",
-                id, surname, name, patronymic, CardNumber, BankNumber);
+        return String.format("ID: %d\t name: %s\t surname: %s\t patronymic: %s\t Address: %s\t CardNumber: %d\t BankNumber: %d",
+                id, surname, name, patronymic, address, CardNumber, BankNumber);
     }
 
 }

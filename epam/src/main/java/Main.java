@@ -128,9 +128,9 @@ public class Main {
  Создать массив объектов. Вывести:
  a) список покупателей в алфавитном порядке;
  b) список покупателей, у которых номер кредитной карточки находится в заданном интервале.*/
-    /*    Shop market = new Shop("Keshenya");
+       /* Shop market = new Shop("Keshenya");
         market.addCustomerToShopList(new Customer("Павел", "Лугин", "Михайлович", "ул. Темерязева д.23", 56456654, 213123));
-        market.addCustomerToShopList(new Customer("Ваня", "ГАвриенко", "Васильевич","ул. Новикова д.10", 45645665, 1663218));
+        market.addCustomerToShopList(new Customer("Ваня", "Гавриенко", "Васильевич","ул. Новикова д.10", 45645665, 1663218));
         market.addCustomerToShopList(new Customer("Алексей", "Лугин", "Андреевич","ул. Василькова д.9", 5454354, 1554598));
         market.addCustomerToShopList(new Customer("Виктор", "Бодриенко", "Михайлович","ул. Гароедова д.15", 5435455, 47656585));
         market.addCustomerToShopList(new Customer("Артём", "Гордей", "Павлович","ул. Павлушнкина д.10", 6576576, 26569));
