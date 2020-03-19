@@ -9,14 +9,16 @@ class Customer {
     private String surname;
     private String name;
     private String patronymic;
+    private String address;
     private int CardNumber;
     private int BankNumber;
 
-    Customer(String surname, String name, String patronymic, int CardNumber, int BankNumber) {
+    Customer(String surname, String name, String patronymic, String address, int CardNumber, int BankNumber) {
 
         this.name = name;
         this.surname = surname;
         this.patronymic = patronymic;
+        this.address = address;
         this.CardNumber = CardNumber;
         this.BankNumber = BankNumber;
 
@@ -32,6 +34,10 @@ class Customer {
 
     public String getPatronymic() {
         return patronymic;
+    }
+
+    public String getAddress() {
+        return address;
     }
 
     public int getCardNumber() {
