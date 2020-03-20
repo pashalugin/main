@@ -1,4 +1,6 @@
-import java.io.File;
+import newyearpresent.Box;
+import newyearpresent.Candy;
+
 import java.io.IOException;
 import java.util.*;
 
@@ -6,11 +8,13 @@ public class Main {
     public static void main(String args[]) throws IOException {
 
 /*//       Main Task
+
 //1.     Приветствовать любого пользователя при вводе его имени через командную строку.
         Scanner in = new Scanner(System.in);
         System.out.println("Enter name:");
         String name = in.nextLine();
         System.out.println("Hello " + name);
+
 //2.     Отобразить в окне консоли аргументы командной строки в обратном порядке.
         System.out.println("Enter argument: ");
         int argument = in.nextInt();
@@ -20,6 +24,7 @@ public class Main {
             argument = argument / 10;
         }
         System.out.println("Argument backwards: " + backwards);
+
 //3.     Вывести заданное количество случайных чисел с переходом и без перехода на новую строку
         System.out.println("Enter amount of random numbers");
         int amountOfRandomNumbers = in.nextInt();
@@ -33,6 +38,7 @@ public class Main {
             Random rand = new Random();
             System.out.print(rand.nextInt(25) + " ");
         }
+
 //4.      Ввести целые числа как аргументы командной строки, подсчитать их сумму (произведение) и вывести результат на консоль.
         int sum = 0;
         int multiply = 1;
@@ -119,6 +125,7 @@ public class Main {
         for(int i = 0; i < args.length; i++){
             System.out.println(args[i]);
         }*/
+
 /* Main task
  Создать классы, спецификации которых приведены ниже.
  Определить конструкторы и методы setТип(), getТип(), toString().
@@ -129,6 +136,7 @@ public class Main {
  Создать массив объектов. Вывести:
  a) список покупателей в алфавитном порядке;
  b) список покупателей, у которых номер кредитной карточки находится в заданном интервале.*/
+
        /* Shop market = new Shop("Keshenya");
         market.addCustomerToShopList(new Customer("Павел", "Лугин", "Михайлович", "ул. Темерязева д.23", 56456654, 213123));
         market.addCustomerToShopList(new Customer("Ваня", "Гавриенко", "Васильевич","ул. Новикова д.10", 45645665, 1663218));
@@ -153,9 +161,27 @@ public class Main {
         for (Customer c : diapasonCardumber) {
             System.out.println(c);
         }*/
+
+//       Main task
+        /*2. Новогодний подарок.
+         Определить иерархию конфет и прочих сладостей.
+         Создать несколько объектов-конфет.
+         Собрать детский подарок с определением его веса.
+         Провести сортировку конфет в подарке на основе одного из параметров.
+         Найти конфету в подарке, соответствующую заданному диапазону содержания сахара.*/
+
+/*      ArrayList<Candy> candies = new ArrayList<Candy>();
+        candies.add(new Candy("Snickers", 1, 900, 1000));
+        candies.add(new Candy("Bounty", 0.5, 800, 900));
+        Box box = new Box(candies);
+        box.sortCandysByWeigth();
+        box.getCandyFromCaloriesRange(500, 1000);
+        System.out.println(box);*/
+
 //       Optional Task
-/*//       2.Ввести число, занести его цифры в стек. Вывести число, у которого цифры идут в обратном порядке.
-        Scanner in = new Scanner(System.in);
+//     2.Ввести число, занести его цифры в стек. Вывести число, у которого цифры идут в обратном порядке.
+
+/*        Scanner in = new Scanner(System.in);
         int number = in.nextInt();
         Stack stack = new Stack();
         char[] numbers = String.valueOf(number).toCharArray();
