@@ -173,6 +173,7 @@ public class Main {
 /*      ArrayList<Candy> candies = new ArrayList<Candy>();
         candies.add(new Candy("Snickers", 1, 900, 1000));
         candies.add(new Candy("Bounty", 0.5, 800, 900));
+        candies.add(new SugarCandy("Mars", 0.1, 1200, 220, "Mars"));
         Box box = new Box(candies);
         box.sortCandysByWeigth();
         box.getCandyFromCaloriesRange(500, 1000);
