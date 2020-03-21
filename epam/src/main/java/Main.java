@@ -1,5 +1,6 @@
 import newyearpresent.Box;
 import newyearpresent.Candy;
+import newyearpresent.SugarCandy;
 
 import java.io.IOException;
 import java.util.*;
@@ -170,7 +171,7 @@ public class Main {
          Провести сортировку конфет в подарке на основе одного из параметров.
          Найти конфету в подарке, соответствующую заданному диапазону содержания сахара.*/
 
-/*      ArrayList<Candy> candies = new ArrayList<Candy>();
+    /* ArrayList<Candy> candies = new ArrayList<Candy>();
         candies.add(new Candy("Snickers", 1, 900, 1000));
         candies.add(new Candy("Bounty", 0.5, 800, 900));
         candies.add(new SugarCandy("Mars", 0.1, 1200, 220, "Mars"));
@@ -178,7 +179,6 @@ public class Main {
         box.sortCandysByWeigth();
         box.getCandyFromCaloriesRange(500, 1000);
         System.out.println(box);*/
-
 //       Optional Task
 //     2.Ввести число, занести его цифры в стек. Вывести число, у которого цифры идут в обратном порядке.
 
