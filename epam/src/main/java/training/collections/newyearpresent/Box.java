@@ -1,4 +1,4 @@
-package newyearpresent;
+package training.collections.newyearpresent;
 
 import java.util.*;
 

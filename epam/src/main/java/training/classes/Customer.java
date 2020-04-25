@@ -1,3 +1,5 @@
+package training.classes;
+
 class Customer {
 
     {

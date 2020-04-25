@@ -1,4 +1,4 @@
-package newyearpresent;
+package training.collections.newyearpresent;
 
 public class SugarCandy extends Candy {
 

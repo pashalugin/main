@@ -1,4 +1,4 @@
-package newyearpresent;
+package training.collections.newyearpresent;
 
 
 public class Candy implements Comparable<Candy>{

@@ -1,3 +1,7 @@
+package training.classes;
+
+import training.classes.Customer;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
