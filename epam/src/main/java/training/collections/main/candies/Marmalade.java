@@ -1,6 +1,6 @@
-package training.collections.candies;
+package training.collections.main.candies;
 
-import training.collections.types.MarmaladeType;
+import training.collections.main.types.MarmaladeType;
 
 public class Marmalade extends Candy{
 

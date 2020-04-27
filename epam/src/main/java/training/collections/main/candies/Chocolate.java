@@ -1,6 +1,6 @@
-package training.collections.candies;
+package training.collections.main.candies;
 
-import training.collections.types.ChocolateType;
+import training.collections.main.types.ChocolateType;
 
 public class Chocolate extends Candy {
 

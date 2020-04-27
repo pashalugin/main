@@ -1,4 +1,4 @@
-package training.collections.candies;
+package training.collections.main.candies;
 
 
 public class Candy{

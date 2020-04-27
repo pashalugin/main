@@ -1,4 +1,4 @@
-package training.collections.types;
+package training.collections.main.types;
 
 public enum MarmaladeType {
     ORANGE("из апельсинового сока"),

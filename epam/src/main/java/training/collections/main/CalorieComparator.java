@@ -1,6 +1,6 @@
-package training.collections;
+package training.collections.main;
 
-import training.collections.candies.Candy;
+import training.collections.main.candies.Candy;
 
 import java.util.Comparator;
 

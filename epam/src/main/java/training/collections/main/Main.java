@@ -1,18 +1,16 @@
-package training.collections;
+package training.collections.main;
 
-import training.collections.candies.Chocolate;
-import training.collections.candies.Marmalade;
-import training.collections.candies.Candy;
-import training.collections.types.ChocolateType;
-import training.collections.types.MarmaladeType;
+import training.collections.main.candies.Chocolate;
+import training.collections.main.candies.Marmalade;
+import training.collections.main.candies.Candy;
+import training.collections.main.types.ChocolateType;
+import training.collections.main.types.MarmaladeType;
 
-import java.io.File;
 
-import java.io.FileNotFoundException;
 import java.util.*;
 
 public class Main {
-    public static void main(String args[]) throws FileNotFoundException {
+    public static void main(String args[]) {
 //       Main task
         /*2. Новогодний подарок.
          Определить иерархию конфет и прочих сладостей.
@@ -75,34 +73,5 @@ public class Main {
                 System.out.println("Неверный ввод.");
         }
 
-
-//       Optional Task
-//     2.Ввести число, занести его цифры в стек. Вывести число, у которого цифры идут в обратном порядке.
-
-        Scanner in = new Scanner(System.in);
-        int number = in.nextInt();
-        Stack stack = new Stack();
-        char[] numbers = String.valueOf(number).toCharArray();
-        for (char num : numbers) {
-            stack.push(num);
-        }
-
-        while (!stack.empty()) {
-            char mirrorNumber = (Character) stack.pop();
-            System.out.print(mirrorNumber);
-        }
-        System.out.println();
-        //       6.Ввести строки из файла, записать в список ArrayList.
-        //       Выполнить сортировку строк, используя метод sort() из класса Collections.
-        Scanner scan = new Scanner(new File("./poem.txt"));
-        ArrayList<String> arrStr = new ArrayList<>();
-        while (scan.hasNext()) {
-            arrStr.add(scan.nextLine());
-        }
-        scan.close();
-        Collections.sort(arrStr);
-        for (String anArrStr : arrStr) {
-            System.out.println(anArrStr);
-        }
     }
 }
