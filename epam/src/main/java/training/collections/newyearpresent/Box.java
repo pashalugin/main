@@ -9,17 +9,16 @@ public class Box {
         this.candies = candies;
     }
 
-    //в порядку зростання
-    public ArrayList<Candy> sortCandysByWeigth(){
+    public ArrayList<Candy> sortCandysByWeigth() {
         Collections.sort(candies);
         return candies;
     }
 
 
-    public void getCandyFromCaloriesRange(double fromCalories, double toCalories){
-        for(Candy candy: candies){
+    public void getCandyFromCaloriesRange(double fromCalories, double toCalories) {
+        for (Candy candy : candies) {
             if (candy.getCalories() >= fromCalories &&
-                    candy.getCalories()<= toCalories)
+                    candy.getCalories() <= toCalories)
                 System.out.println(candy);
         }
     }
@@ -28,8 +27,8 @@ public class Box {
     @Override
     public String toString() {
         String result = "Box: \n";
-        for(Candy candy: candies){
-            result += candy.toString()+ "\n";
+        for (Candy candy : candies) {
+            result += candy.toString() + "\n";
         }
         return result;
     }
