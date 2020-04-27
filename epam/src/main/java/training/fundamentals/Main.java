@@ -1,13 +1,11 @@
 package training.fundamentals;
 
-import java.io.IOException;
 import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String args[]) throws IOException {
+    public static void main(String args[]) {
 //       Main Task
-
 //1.     Приветствовать любого пользователя при вводе его имени через командную строку.
         Scanner in = new Scanner(System.in);
         System.out.println("Enter name:");
@@ -41,12 +39,12 @@ public class Main {
 //4.      Ввести целые числа как аргументы командной строки, подсчитать их сумму (произведение) и вывести результат на консоль.
         int sum = 0;
         int multiply = 1;
-        for(String digi: args){
-            sum= sum + Integer.parseInt(digi);
+        for (String digi : args) {
+            sum = sum + Integer.parseInt(digi);
         }
         System.out.println("Sum of numbers: " + multiply);
-        for(String digi: args){
-            multiply= multiply * Integer.parseInt(digi);
+        for (String digi : args) {
+            multiply = multiply * Integer.parseInt(digi);
         }
         System.out.println("Multiply of numbers: " + multiply);
 
@@ -93,37 +91,5 @@ public class Main {
             default:
                 System.out.println("Wrong number entered, try again");
         }
-
-//        Optional task
-//        1.     Упорядочить строки (столбцы) матрицы в порядке возрастания значений элементов k-го столбца (строки).
-        int min = 10, max = 0;
-        String minStr = null, maxStr = null;
-        for (String digi : args) {
-            if (digi.length() < min) {
-                min = digi.length();
-                minStr = digi;
-            }
-            if (digi.length() > max) {
-                max = digi.length();
-                maxStr = digi;
-            }
-        }
-        System.out.println("Минимальное число " + minStr + " состоит из " + min
-                + " цифр\nМаксимальное число " + maxStr + " состоит из " + max
-                + " цифр");
-//        2.     Вывести числа в порядке возрастания (убывания) значений их длины
-        for(int i = args.length-1 ; i > 0 ; i--){
-            for(int j = 0 ; j < i ; j++){
-                if( args[j].length() > args[j+1].length() ){
-                    String tmp = args[j];
-                    args[j] = args[j+1];
-                    args[j+1] = tmp;
-                }
-            }
-        }
-        for(int i = 0; i < args.length; i++){
-            System.out.println(args[i]);
-        }
-
     }
 }

@@ -19,7 +19,6 @@ public class Airport {
 
 
     public List<PassengerPlane> getPassengerPlanes() {
-
         List<PassengerPlane> passengerPlanes = new ArrayList<>();
         for (Plane plane : planes) {
             if (plane instanceof PassengerPlane) {

@@ -1,10 +1,9 @@
 package training.classes;
 
-import java.io.IOException;
 import java.util.List;
 
 public class Main {
-    public static void main(String args[]) throws IOException{
+    public static void main(String args[]){
         /* Main task
  Создать классы, спецификации которых приведены ниже.
  Определить конструкторы и методы setТип(), getТип(), toString().
